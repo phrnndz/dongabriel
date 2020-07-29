@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+// Import a Google Font
+//https://www.reliablepsd.com/ultimate-google-font-pairings/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&family=Homemade+Apple&display=swap');
+
+// Set your brand colors
+// $purple: #8A4D76;
+// $pink: #FA7C91;
+// $brown: #757763;
+// $beige-light: #D0D1CD;
+// $beige-lighter: #EFF0EB;
+$white: #FAF4D3;
+$info:  #004643;
+$beige-light: #FAF4D3;
+$grey-light: $beige-light;
+$family-primary: 'Maven Pro', sans-serif;
+// $family-secondary: 'Patua One', cursive;
+
+
+// Update some of Bulma's component variables
+
+
+
+// Import only what you need from Bulma
+@import "./node_modules/bulma/sass/utilities/_all.sass";
+@import "./node_modules/bulma/sass/base/_all.sass";
+@import "./node_modules/bulma/sass/elements/_all.sass";
+@import "./node_modules/bulma/sass/helpers/_all.sass";
+@import "./node_modules/bulma/sass/layout/_all.sass";
+@import "./node_modules/bulma/sass/grid/_all.sass";
+@import "./node_modules/bulma/sass/components/navbar.sass";
+
+@import "./style.scss"

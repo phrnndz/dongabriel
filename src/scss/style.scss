@@ -1,0 +1,46 @@
+
+.navbar-burger{
+	color: #FAF4D3;
+}
+
+.hero-video video { position: relative; left: auto; top: auto; transform: none; object-fit: cover; }
+
+@media screen and (min-width: 1025px) {
+    .navbar-item.is-hoverable:hover .navbar-dropdown {
+        display: block !important;
+    }
+    .navbar-item.is-hoverable:focus-within .navbar-dropdown {
+        display: none;
+    }
+}
+
+
+
+a.navbar-item,
+      .navbar-link {
+        &:hover,
+        &.is-active {
+          background-color: white;
+} }
+
+
+.is-breadcrumb {
+	color: #B2876F;
+	font-weight: bold;
+}
+
+.is-family-handwriting{
+	font-family: 'Homemade Apple';
+}
+
+.contact-phone{
+	align-items: center;
+  	justify-content: center;
+}
+.page-enter-active, .page-leave-active {
+	transition: opacity 1s, transform 1s;
+  }
+.page-enter, .page-leave-to {
+opacity: 0;
+transform: translateX(-30%);
+}
